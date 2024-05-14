@@ -1,0 +1,57 @@
+@import "../../../scss/base.scss";
+.drop-file-menu {
+  //   display: none;
+
+  .detail {
+    position: absolute;
+    left: 203px;
+    top: 21px;
+    display: flex;
+    flex-direction: column;
+    background-color: $mainFontColor;
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+    z-index: 3;
+    // flex-grow: 1;
+    span {
+      width: 250px;
+      // width: 100%;
+      text-align: left;
+      // height: 40px;
+    }
+  }
+  ul {
+    position: absolute;
+    right: -110px;
+    top: 5px;
+    list-style-type: none;
+    border-radius: 10px;
+    // padding: 5px;
+    z-index: 3;
+
+    li {
+      background-color: $mainFontColor;
+      border: 1px solid;
+      border-radius: 0px;
+      padding: 2px;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+    li:hover {
+      background-color: rgb(222, 239, 245);
+      cursor: pointer;
+    }
+  }
+}
+.left {
+  ul {
+    right: 80px;
+  }
+  .detail {
+    left: -380px;
+  }
+}

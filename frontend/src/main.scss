@@ -1,0 +1,17 @@
+@import "./scss/base.scss";
+
+body {
+  font-family: "Arial", sans-serif;
+  color: $mainTextColor;
+  overflow-y: hidden;
+  display: flex;
+}
+
+#root {
+  width: 100%;
+}
+.container {
+  display: flex;
+  // height: 79vh;
+  background-color: $secondFontColor;
+}

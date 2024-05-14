@@ -1,0 +1,83 @@
+@import "../../scss/base.scss";
+
+.header {
+  @include frame;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  min-width: 70vw;
+  width: auto;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+
+  .header-logo {
+    margin-left: 50px;
+    width: 80px;
+    height: 60px;
+  }
+
+  img {
+    height: 80px;
+    transition: all 2s linear;
+  }
+
+  .header__search {
+    flex-grow: 1;
+    height: 20px;
+    max-width: 630px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .header__menu {
+    display: flex;
+    gap: 20px;
+    margin-right: 80px;
+
+    .avatar {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: red;
+    }
+    .page {
+      align-self: center;
+
+      select {
+        padding-left: 10px;
+        border-radius: 10px;
+        background-color: $secondFontColor;
+      }
+
+      .header__login {
+        border: 1px solid $secondFontColor;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .cloud3 {
+    display: none;
+    opacity: 0;
+    width: 0;
+    visibility: hidden;
+  }
+}
+@media (max-width: 900px) {
+  .cloud2 {
+    opacity: 0;
+    width: 0;
+    visibility: hidden;
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .cloud1 {
+    opacity: 0;
+    width: 0;
+    visibility: hidden;
+    display: none;
+  }
+}

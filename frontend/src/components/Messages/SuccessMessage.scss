@@ -1,0 +1,11 @@
+.success__message__wrapper {
+  position: absolute;
+  top: -20%;
+  background-color: #80e58e;
+  border-radius: 20px;
+  z-index: 5;
+
+  div {
+    padding: 10px;
+  }
+}

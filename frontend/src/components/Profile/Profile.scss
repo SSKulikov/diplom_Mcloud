@@ -1,0 +1,123 @@
+@import "../../scss/base.scss";
+
+.profile__wrapper {
+  background-color: $secondFontColor;
+  padding: 10px;
+  .profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 77vh;
+    background-color: $mainFontColor;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    // padding: 10px;
+
+    border-radius: 10px;
+    text-align: center;
+
+    .error__form__wrapper {
+      left: 25%;
+    }
+    .error__message__wrapper,
+    .success__message__wrapper {
+      top: 20%;
+    }
+
+    .preloader__wrapper {
+      position: absolute;
+    }
+
+    img {
+      height: 80px;
+      width: 80px;
+    }
+    span {
+      margin: 20px 0;
+      font-size: 20px;
+    }
+    // h2 {
+    //   padding-top: 50px;
+    // }
+
+    .profile__info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        textarea {
+          margin-top: 10px;
+          border-radius: 5px;
+          resize: none;
+          font-style: italic;
+          text-align: center;
+          height: 20px;
+        }
+        input {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .profile__control {
+      display: flex;
+      gap: 20px;
+      margin-top: 40px;
+
+      button {
+        background-color: rgb(217, 246, 189);
+        padding: 3px;
+        width: 270px;
+        border-radius: 5px;
+      }
+
+      .cancel {
+        background-color: rgb(240, 194, 194);
+      }
+    }
+
+    .profile__file__info {
+      margin-top: 80px;
+      display: flex;
+      gap: 50px;
+      label {
+        display: flex;
+        gap: 10px;
+      }
+      input {
+        width: 80px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .profile__wrapper {
+    .profile {
+      width: auto;
+      overflow: auto;
+      .profile__info {
+        flex-direction: column;
+      }
+      .profile__file__info {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 20px;
+        margin-bottom: 50px;
+
+        label {
+          width: 270px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

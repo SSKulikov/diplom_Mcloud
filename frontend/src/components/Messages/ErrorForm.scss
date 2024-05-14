@@ -1,0 +1,19 @@
+.error__form__wrapper {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  padding: 20px;
+  border: 1px solid black;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  z-index: 5;
+  div {
+  }
+  button {
+    background-color: rgb(156, 232, 91);
+  }
+}

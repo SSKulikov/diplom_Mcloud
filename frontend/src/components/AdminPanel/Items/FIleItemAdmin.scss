@@ -1,0 +1,82 @@
+@import "../../../scss/base.scss";
+
+.admin__fileItem {
+  position: relative;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 5px;
+  padding-right: 70px;
+
+  .admin__fileItem__info-btn {
+    height: 20px;
+    background-color: transparent;
+    border: 0;
+    color: $mainTextColor;
+  }
+
+  .admin__fileItem__info {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    // flex-direction: column;
+    margin-top: 10px;
+    padding: 5px;
+    padding-right: 70px;
+    transition: height 2s ease-in-out;
+  }
+
+  .hidden {
+    display: none;
+    height: 0;
+  }
+
+  .fileItem__control {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 5px;
+    flex-grow: 1;
+    margin-left: 30px;
+
+    button {
+      box-sizing: border-box;
+      background-color: transparent;
+      border: 0;
+      border-radius: 50%;
+      cursor: pointer;
+      //   padding-bottom: 10px;
+    }
+
+    button:hover {
+      border: 1px solid blue;
+    }
+
+    .redact {
+      font-size: 18px;
+    }
+    .del {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .admin__fileItem {
+    padding-right: 35px;
+  }
+  .fileItem__control {
+    flex-direction: column-reverse;
+    // align-items: center
+    justify-content: center;
+    align-content: flex-end;
+    order: 1;
+  }
+  .redact {
+    padding-left: 10px;
+  }
+}

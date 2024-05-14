@@ -1,0 +1,9 @@
+$mainFontColor: #8ebbe5;
+$secondFontColor: #8ebbe588;
+$mainTextColor: #4e5c82;
+
+@mixin frame {
+  display: flex;
+  height: 100px;
+  background-color: $mainFontColor;
+}

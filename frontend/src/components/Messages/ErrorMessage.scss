@@ -1,0 +1,11 @@
+.error__message__wrapper {
+  position: absolute;
+  top: -20%;
+  background-color: #e3b1b1;
+  border-radius: 20px;
+  z-index: 5;
+
+  div {
+    padding: 10px;
+  }
+}

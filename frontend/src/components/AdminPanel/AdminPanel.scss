@@ -1,0 +1,70 @@
+@import "../../scss/base.scss";
+
+.admin__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: $secondFontColor;
+  padding: 10px;
+  gap: 10px;
+
+  .admin__users,
+  .admin__info {
+    // width: 50%;
+    height: 77vh;
+    background-color: $secondFontColor;
+  }
+  .admin__users {
+    width: 30%;
+    position: relative;
+    .error__form__wrapper {
+      left: 25%;
+    }
+
+    h2 {
+      text-align: center;
+    }
+    div {
+      max-height: 77vh;
+      overflow-y: auto;
+    }
+  }
+  .admin__info {
+    width: 70%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .error__form__wrapper {
+      left: 25%;
+    }
+    .error__message__wrapper,
+    .success__message__wrapper {
+      top: 30%;
+      left: 30%;
+    }
+    .success__message__wrapper {
+      min-width: 280px;
+      text-align: center;
+    }
+    .admin_userInfo {
+      // position: relative;
+      // height: 55%;
+      // overflow-y: auto;
+    }
+    .admin__files {
+      // position: relative;
+      // position: relative;
+      padding: 0 5px;
+      // max-height: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      overflow-y: auto;
+      .preloader__wrapper {
+        position: absolute;
+      }
+      h2 {
+        // margin: 0;
+      }
+    }
+  }
+}
