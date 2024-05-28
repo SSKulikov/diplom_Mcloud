@@ -4,7 +4,7 @@ from rest_framework import serializers
 from rest_framework.authtoken.admin import User
 from rest_framework.authtoken.models import Token
 
-from cloudback.models import Files
+from .models import Files
 
 logger = logging.getLogger("django")
 

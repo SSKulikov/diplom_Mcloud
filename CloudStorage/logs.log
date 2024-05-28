@@ -113,3 +113,108 @@ INFO 2024-05-13 10:39:27,482 views DownloadFileAPIView Downloading file
 INFO 2024-05-13 10:39:27,482 views LogoutView logout user
 WARNING 2024-05-13 10:39:29,016 log log_response Not Found: /catalog/
 WARNING 2024-05-13 10:39:29,016 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3373
+INFO 2024-05-16 12:54:13,473 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 12:54:13,601 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 12:54:13,601 views LogoutView logout user
+WARNING 2024-05-16 12:54:15,933 log log_response Not Found: /catalog/
+WARNING 2024-05-16 12:54:15,941 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 12:54:23,533 basehttp log_message "GET /admin/ HTTP/1.1" 200 7329
+INFO 2024-05-16 12:54:23,581 basehttp log_message "GET /assets/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-05-16 12:54:23,581 basehttp log_message "GET /assets/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2024-05-16 12:54:23,581 basehttp log_message "GET /assets/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-05-16 12:54:23,589 basehttp log_message "GET /assets/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-05-16 12:54:23,589 basehttp log_message "GET /assets/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-16 12:54:23,598 basehttp log_message "GET /assets/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2024-05-16 12:54:23,598 basehttp log_message "GET /assets/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-16 12:54:23,605 basehttp log_message "GET /assets/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-05-16 12:54:23,605 basehttp log_message "GET /assets/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-16 12:54:30,199 basehttp log_message "GET /admin/ HTTP/1.1" 200 7329
+WARNING 2024-05-16 12:54:30,319 log log_response Not Found: /application
+WARNING 2024-05-16 12:54:30,319 basehttp log_message "GET /application HTTP/1.1" 404 3285
+WARNING 2024-05-16 12:54:31,375 log log_response Not Found: /api
+WARNING 2024-05-16 12:54:31,375 basehttp log_message "GET /api HTTP/1.1" 404 3261
+WARNING 2024-05-16 12:54:38,118 log log_response Not Found: /api/
+WARNING 2024-05-16 12:54:38,118 basehttp log_message "GET /api/ HTTP/1.1" 404 3916
+INFO 2024-05-16 14:24:45,486 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:24:45,598 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:24:45,598 views LogoutView logout user
+WARNING 2024-05-16 14:25:07,156 log log_response Not Found: /catalog/
+WARNING 2024-05-16 14:25:07,164 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+WARNING 2024-05-16 14:25:28,345 log log_response Not Found: /api/
+WARNING 2024-05-16 14:25:28,345 basehttp log_message "GET /api/ HTTP/1.1" 404 3916
+WARNING 2024-05-16 14:25:37,963 log log_response Not Found: /catalog/
+WARNING 2024-05-16 14:25:37,963 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 14:27:17,521 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-05-16 14:27:17,915 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:27:18,050 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:27:18,050 views LogoutView logout user
+WARNING 2024-05-16 14:27:34,512 log log_response Not Found: /catalog/
+WARNING 2024-05-16 14:27:34,512 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 14:32:07,926 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:32:08,038 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:32:08,038 views LogoutView logout user
+WARNING 2024-05-16 14:32:26,758 log log_response Not Found: /catalog/
+WARNING 2024-05-16 14:32:26,758 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 14:35:55,227 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\cloudback\views.py changed, reloading.
+INFO 2024-05-16 14:35:55,619 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:35:55,768 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:35:55,768 views LogoutView logout user
+INFO 2024-05-16 14:37:55,082 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\cloudback\serializers.py changed, reloading.
+INFO 2024-05-16 14:37:55,420 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:37:55,536 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:37:55,536 views LogoutView logout user
+INFO 2024-05-16 14:38:33,184 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:38:33,184 views LogoutView logout user
+INFO 2024-05-16 14:38:41,052 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:38:41,052 views LogoutView logout user
+INFO 2024-05-16 14:38:47,466 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:38:47,583 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:38:47,583 views LogoutView logout user
+WARNING 2024-05-16 14:38:49,097 log log_response Not Found: /catalog/
+WARNING 2024-05-16 14:38:49,097 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 14:58:02,985 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\cloudback\views.py changed, reloading.
+INFO 2024-05-16 14:58:03,379 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:58:03,503 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:58:03,503 views LogoutView logout user
+INFO 2024-05-16 14:58:59,448 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\cloudback\views.py changed, reloading.
+INFO 2024-05-16 14:58:59,819 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:58:59,939 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:58:59,939 views LogoutView logout user
+WARNING 2024-05-16 14:59:01,340 log log_response Not Found: /catalog/
+WARNING 2024-05-16 14:59:01,340 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 14:59:58,678 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\cloudback\views.py changed, reloading.
+INFO 2024-05-16 14:59:59,034 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 14:59:59,146 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 14:59:59,146 views LogoutView logout user
+WARNING 2024-05-16 15:00:29,876 log log_response Not Found: /catalog/
+WARNING 2024-05-16 15:00:29,876 basehttp log_message "GET /catalog/ HTTP/1.1" 404 3276
+INFO 2024-05-16 15:04:22,340 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-05-16 15:05:01,758 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-16 15:05:01,875 views DownloadFileAPIView Downloading file
+INFO 2024-05-16 15:05:01,875 views LogoutView logout user
+ERROR 2024-05-16 15:05:04,085 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Python310\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Python310\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-05-16 15:05:04,117 log log_response Bad Request: /catalog/
+WARNING 2024-05-16 15:05:04,117 basehttp log_message "GET /catalog/ HTTP/1.1" 400 143
+ERROR 2024-05-16 15:05:15,830 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Python310\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Python310\lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-05-16 15:05:15,830 log log_response Bad Request: /catalog/
+WARNING 2024-05-16 15:05:15,830 basehttp log_message "GET /catalog/ HTTP/1.1" 400 143

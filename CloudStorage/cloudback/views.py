@@ -11,8 +11,8 @@ from django.shortcuts import redirect
 from django.views.generic import TemplateView
 
 from django.contrib.auth.models import User
-from cloudback.models import Files
-from cloudback.serializers import FilesSerializer, UserSerializer
+from .models import Files
+from .serializers import FilesSerializer, UserSerializer
 from datetime import datetime
 
 # from django.contrib.auth import get_user_model
@@ -38,7 +38,6 @@ class BackendAPIView(ModelViewSet):
 class DownloadFileAPIView(APIView):
     permission_classes = (AllowAny,)
     logger.info('Downloading file')
-
     def get(self, request, id, format=None):
         queryset = Files.objects.get(linkUiid=id)
         queryset.download_counter += 1
