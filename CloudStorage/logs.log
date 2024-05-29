@@ -218,3 +218,105 @@ Traceback (most recent call last):
 django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
 WARNING 2024-05-16 15:05:15,830 log log_response Bad Request: /catalog/
 WARNING 2024-05-16 15:05:15,830 basehttp log_message "GET /catalog/ HTTP/1.1" 400 143
+INFO 2024-05-29 02:45:10,806 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 02:45:10,946 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 02:45:10,946 views LogoutView logout user
+ERROR 2024-05-29 02:45:12,788 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-05-29 02:45:12,788 basehttp log_message "GET / HTTP/1.1" 500 77060
+WARNING 2024-05-29 02:45:12,876 log log_response Not Found: /favicon.ico
+WARNING 2024-05-29 02:45:12,876 basehttp log_message "GET /favicon.ico HTTP/1.1" 404 3285
+INFO 2024-05-29 02:45:25,578 basehttp log_message "GET /admin HTTP/1.1" 301 0
+INFO 2024-05-29 02:45:25,582 basehttp log_message "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-29 02:45:25,600 basehttp log_message "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-05-29 02:45:25,643 basehttp log_message "GET /assets/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2024-05-29 02:45:25,643 basehttp log_message "GET /assets/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-29 02:45:25,643 basehttp log_message "GET /assets/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-05-29 02:45:25,658 basehttp log_message "GET /assets/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-05-29 02:45:25,658 basehttp log_message "GET /assets/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-29 02:45:25,658 basehttp log_message "GET /assets/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2024-05-29 02:45:25,661 basehttp log_message "GET /assets/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-05-29 02:45:35,005 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2024-05-29 02:45:56,337 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2024-05-29 02:46:38,600 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2024-05-29 02:46:50,417 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2024-05-29 02:47:25,301 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2024-05-29 02:47:39,241 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+WARNING 2024-05-29 02:48:48,288 log log_response Not Found: /account/password-change
+WARNING 2024-05-29 02:48:48,288 basehttp log_message "GET /account/password-change HTTP/1.1" 404 3321
+INFO 2024-05-29 02:49:25,063 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 02:49:25,063 views LogoutView logout user
+INFO 2024-05-29 02:49:50,783 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 02:49:50,893 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 02:49:50,893 views LogoutView logout user
+ERROR 2024-05-29 02:49:52,036 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-05-29 02:49:52,039 basehttp log_message "GET / HTTP/1.1" 500 77060
+INFO 2024-05-29 02:50:00,242 basehttp log_message "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-29 02:50:00,254 basehttp log_message "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2024-05-29 02:50:07,058 basehttp log_message "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-05-29 02:50:07,089 basehttp log_message "GET /admin/ HTTP/1.1" 200 7329
+INFO 2024-05-29 02:50:07,116 basehttp log_message "GET /assets/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-05-29 02:50:07,119 basehttp log_message "GET /assets/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-05-29 02:50:07,120 basehttp log_message "GET /assets/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-29 02:50:12,627 basehttp log_message "GET /admin/cloudback/files/add/ HTTP/1.1" 200 13926
+INFO 2024-05-29 02:50:12,642 basehttp log_message "GET /assets/admin/css/forms.css HTTP/1.1" 200 8953
+INFO 2024-05-29 02:50:12,642 basehttp log_message "GET /assets/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-05-29 02:50:12,642 basehttp log_message "GET /assets/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-05-29 02:50:12,648 basehttp log_message "GET /assets/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-05-29 02:50:12,649 basehttp log_message "GET /assets/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-05-29 02:50:12,651 basehttp log_message "GET /assets/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2024-05-29 02:50:12,651 basehttp log_message "GET /assets/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-05-29 02:50:12,651 basehttp log_message "GET /assets/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-05-29 02:50:12,651 basehttp log_message "GET /assets/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-05-29 02:50:12,651 basehttp log_message "GET /assets/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-05-29 02:50:12,666 basehttp log_message "GET /assets/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-05-29 02:50:12,666 basehttp log_message "GET /assets/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-05-29 02:50:12,666 basehttp log_message "GET /assets/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-05-29 02:50:12,666 basehttp log_message "GET /assets/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-05-29 02:50:12,666 basehttp log_message "GET /assets/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-05-29 02:50:12,682 basehttp log_message "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2024-05-29 02:50:12,709 basehttp log_message "GET /assets/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-05-29 02:50:12,709 basehttp log_message "GET /assets/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+ERROR 2024-05-29 02:50:21,411 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-05-29 02:50:21,411 basehttp log_message "GET / HTTP/1.1" 500 77379
