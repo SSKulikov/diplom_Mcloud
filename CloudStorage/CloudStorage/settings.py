@@ -10,9 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import  os
-from dotenv import load_dotenv
 
-load_dotenv()
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,7 +26,7 @@ SECRET_KEY = 'django-insecure-35qw*#+mcdcpg2*v7!i_hnh-$qcj_h@#um=1@#l6_b!d1@8&mb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG') or True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['79.174.80.115']
 
 
 # Application definition
@@ -43,7 +41,6 @@ INSTALLED_APPS = [
     'cloudback',
     'rest_framework.authtoken',
     'rest_framework',
-    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -84,9 +81,9 @@ WSGI_APPLICATION = 'CloudStorage.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'cloud_storage',
-        'USER':'postgres',
-        'PASSWORD': 'postgres',
+        'NAME': 'sergey',
+        'USER':'sergey',
+        'PASSWORD': 'QWERTYUIOP',
         'HOST': 'localhost',
         'PORT': '5432',
     }
