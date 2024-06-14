@@ -320,3 +320,163 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
 django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
 ERROR 2024-05-29 02:50:21,411 basehttp log_message "GET / HTTP/1.1" 500 77379
+INFO 2024-06-13 12:27:58,623 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 12:27:58,811 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 12:27:58,811 views LogoutView logout user
+ERROR 2024-06-13 12:28:01,081 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 12:28:01,081 basehttp log_message "GET / HTTP/1.1" 500 76958
+WARNING 2024-06-13 12:28:01,399 log log_response Not Found: /favicon.ico
+WARNING 2024-06-13 12:28:01,399 basehttp log_message "GET /favicon.ico HTTP/1.1" 404 3285
+INFO 2024-06-13 15:11:30,209 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 15:11:30,319 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 15:11:30,319 views LogoutView logout user
+ERROR 2024-06-13 15:11:33,086 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 15:11:33,087 basehttp log_message "GET / HTTP/1.1" 500 78194
+WARNING 2024-06-13 15:11:33,181 log log_response Not Found: /favicon.ico
+WARNING 2024-06-13 15:11:33,182 basehttp log_message "GET /favicon.ico HTTP/1.1" 404 3285
+INFO 2024-06-13 15:12:39,817 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-13 15:12:40,174 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 15:12:40,283 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 15:12:40,283 views LogoutView logout user
+ERROR 2024-06-13 15:12:43,198 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 15:12:43,213 basehttp log_message "GET / HTTP/1.1" 500 78334
+ERROR 2024-06-13 15:12:53,478 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 15:12:53,478 basehttp log_message "GET / HTTP/1.1" 500 78334
+INFO 2024-06-13 15:13:38,145 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 15:13:38,239 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 15:13:38,239 views LogoutView logout user
+ERROR 2024-06-13 15:13:40,314 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 15:13:40,315 basehttp log_message "GET / HTTP/1.1" 500 78197
+INFO 2024-06-13 15:14:20,865 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-13 15:14:21,199 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 15:14:21,292 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 15:14:21,292 views LogoutView logout user
+INFO 2024-06-13 15:14:25,645 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\cloudback\views.py changed, reloading.
+INFO 2024-06-13 15:14:26,138 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 15:14:26,269 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 15:14:26,269 views LogoutView logout user
+ERROR 2024-06-13 15:14:42,088 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../static/index.html
+ERROR 2024-06-13 15:14:42,088 basehttp log_message "GET / HTTP/1.1" 500 77354
+INFO 2024-06-13 15:16:21,283 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\cloudback\views.py changed, reloading.
+INFO 2024-06-13 15:16:21,715 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-13 15:16:21,860 views DownloadFileAPIView Downloading file
+INFO 2024-06-13 15:16:21,860 views LogoutView logout user
+ERROR 2024-06-13 15:16:30,914 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 15:16:30,914 basehttp log_message "GET / HTTP/1.1" 500 78334
+ERROR 2024-06-13 15:16:48,478 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-13 15:16:48,478 basehttp log_message "GET / HTTP/1.1" 500 78334
+INFO 2024-06-14 05:54:27,458 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 05:54:27,630 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 05:54:27,630 views LogoutView logout user
