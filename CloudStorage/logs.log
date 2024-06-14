@@ -320,6 +320,7 @@ Traceback (most recent call last):
     raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
 django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
 ERROR 2024-05-29 02:50:21,411 basehttp log_message "GET / HTTP/1.1" 500 77379
+<<<<<<< HEAD
 INFO 2024-06-13 12:27:58,623 autoreload run_with_reloader Watching for file changes with StatReloader
 INFO 2024-06-13 12:27:58,811 views DownloadFileAPIView Downloading file
 INFO 2024-06-13 12:27:58,811 views LogoutView logout user
@@ -480,3 +481,221 @@ ERROR 2024-06-13 15:16:48,478 basehttp log_message "GET / HTTP/1.1" 500 78334
 INFO 2024-06-14 05:54:27,458 autoreload run_with_reloader Watching for file changes with StatReloader
 INFO 2024-06-14 05:54:27,630 views DownloadFileAPIView Downloading file
 INFO 2024-06-14 05:54:27,630 views LogoutView logout user
+=======
+INFO 2024-05-29 13:20:11,937 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:20:47,477 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:20:47,563 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:20:47,564 views LogoutView logout user
+INFO 2024-05-29 13:22:29,791 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:22:29,876 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:22:29,877 views LogoutView logout user
+INFO 2024-05-29 13:23:14,910 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:23:14,911 views LogoutView logout user
+INFO 2024-05-29 13:23:40,872 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:23:40,957 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:23:40,957 views LogoutView logout user
+INFO 2024-05-29 13:25:27,986 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:25:28,064 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:25:28,065 views LogoutView logout user
+INFO 2024-05-29 13:25:53,210 basehttp log_message code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x037\x15?1h\x83_ð~0î9ó\x05\x0eVÞ¨\x07ö\x90ywãÜe')
+ERROR 2024-05-29 13:25:53,210 basehttp log_message You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-05-29 13:25:53,409 basehttp log_message code 400, message Bad request version ('2iXÅù(¾\x88³©Öë>')
+ERROR 2024-05-29 13:25:53,409 basehttp log_message You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-05-29 13:25:53,458 basehttp log_message code 400, message Bad request version ('\x90\x88F¬ì\x91À')
+ERROR 2024-05-29 13:25:53,459 basehttp log_message You're accessing the development server over HTTPS, but it only supports HTTP.
+ERROR 2024-05-29 13:25:53,549 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "/root/diplom_Mcloud/CloudStorage/env/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/diplom_Mcloud/CloudStorage/env/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/root/diplom_Mcloud/CloudStorage/env/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/root/diplom_Mcloud/CloudStorage/env/lib/python3.12/site-packages/django/template/response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/diplom_Mcloud/CloudStorage/env/lib/python3.12/site-packages/django/template/response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/diplom_Mcloud/CloudStorage/env/lib/python3.12/site-packages/django/template/loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-05-29 13:25:53,551 basehttp log_message "GET / HTTP/1.1" 500 75601
+INFO 2024-05-29 13:25:53,662 basehttp log_message code 400, message Bad request version ('\x8fE\x15\x98PzQß\x12K3·4:Ù=f\x11\x00')
+ERROR 2024-05-29 13:25:53,662 basehttp log_message You're accessing the development server over HTTPS, but it only supports HTTP.
+WARNING 2024-05-29 13:25:53,911 log log_response Not Found: /favicon.ico
+WARNING 2024-05-29 13:25:53,912 basehttp log_message "GET /favicon.ico HTTP/1.1" 404 3289
+INFO 2024-05-29 13:49:30,419 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:49:30,501 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:49:30,501 views LogoutView logout user
+INFO 2024-05-29 13:49:40,625 basehttp log_message code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x12\x00\x00\x00\x17\x00\x00\x00')
+ERROR 2024-05-29 13:49:40,626 basehttp log_message You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-05-29 13:49:40,630 basehttp log_message "GET / HTTP/1.1" 200 0
+INFO 2024-05-29 13:49:40,830 basehttp log_message code 400, message Bad request version ('e\x0føs')
+ERROR 2024-05-29 13:49:40,830 basehttp log_message You're accessing the development server over HTTPS, but it only supports HTTP.
+INFO 2024-05-29 13:49:51,869 basehttp log_message "GET / HTTP/1.1" 200 0
+INFO 2024-05-29 13:50:53,537 basehttp log_message "GET / HTTP/1.1" 200 0
+INFO 2024-05-29 13:50:55,202 basehttp log_message "GET / HTTP/1.1" 200 0
+INFO 2024-05-29 13:50:55,584 basehttp log_message "GET / HTTP/1.1" 200 0
+INFO 2024-05-29 13:51:26,607 basehttp log_message "GET /admin HTTP/1.1" 301 0
+INFO 2024-05-29 13:51:26,722 basehttp log_message "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-05-29 13:51:26,989 basehttp log_message "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-29 13:51:27,195 basehttp log_message "GET /assets/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-05-29 13:51:27,213 basehttp log_message "GET /assets/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-05-29 13:51:27,219 basehttp log_message "GET /assets/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-05-29 13:51:27,220 basehttp log_message "GET /assets/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-05-29 13:51:27,220 basehttp log_message "GET /assets/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-05-29 13:51:27,221 basehttp log_message "GET /assets/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-29 13:51:27,403 basehttp log_message "GET /assets/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-29 13:54:07,597 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:54:07,659 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:54:07,660 views LogoutView logout user
+INFO 2024-05-29 13:54:12,076 basehttp log_message "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-05-29 13:54:15,397 basehttp log_message "GET / HTTP/1.1" 200 294
+WARNING 2024-05-29 13:54:15,668 log log_response Not Found: /src/main.tsx
+WARNING 2024-05-29 13:54:15,668 basehttp log_message "GET /src/main.tsx HTTP/1.1" 404 3292
+INFO 2024-05-29 13:56:41,087 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:56:41,166 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:56:41,167 views LogoutView logout user
+INFO 2024-05-29 13:56:45,898 basehttp log_message "GET / HTTP/1.1" 200 303
+WARNING 2024-05-29 13:56:46,158 log log_response Not Found: /frontend/src/main.tsx
+WARNING 2024-05-29 13:56:46,159 basehttp log_message "GET /frontend/src/main.tsx HTTP/1.1" 404 3319
+INFO 2024-05-29 13:57:55,824 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:57:55,825 views LogoutView logout user
+INFO 2024-05-29 13:57:59,623 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-05-29 13:57:59,691 views DownloadFileAPIView Downloading file
+INFO 2024-05-29 13:57:59,691 views LogoutView logout user
+INFO 2024-05-29 13:58:04,388 basehttp log_message "GET / HTTP/1.1" 200 351
+INFO 2024-05-29 13:58:21,814 basehttp log_message "GET / HTTP/1.1" 200 351
+INFO 2024-05-29 13:58:22,389 basehttp log_message "GET / HTTP/1.1" 200 351
+WARNING 2024-05-29 14:00:11,795 log log_response Not Found: /api
+WARNING 2024-05-29 14:00:11,796 basehttp log_message "GET /api HTTP/1.1" 404 3265
+WARNING 2024-05-29 14:00:37,074 log log_response Unauthorized: /api/users/detail
+WARNING 2024-05-29 14:00:37,075 basehttp log_message "GET /api/users/detail HTTP/1.1" 401 5261
+INFO 2024-05-29 14:00:37,276 basehttp log_message "GET /assets/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-05-29 14:00:37,290 basehttp log_message "GET /assets/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-05-29 14:00:37,295 basehttp log_message "GET /assets/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-05-29 14:00:37,298 basehttp log_message "GET /assets/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-05-29 14:00:37,299 basehttp log_message "GET /assets/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-05-29 14:00:37,300 basehttp log_message "GET /assets/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-05-29 14:00:37,478 basehttp log_message "GET /assets/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-05-29 14:00:37,540 basehttp log_message "GET /assets/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-05-29 14:00:37,554 basehttp log_message "GET /assets/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-05-29 14:00:37,555 basehttp log_message "GET /assets/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-05-29 14:00:37,628 basehttp log_message "GET /assets/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-05-29 14:00:37,662 basehttp log_message "GET /assets/rest_framework/img/grid.png HTTP/1.1" 200 1458
+>>>>>>> b595c657599df2f01932de8e56e025c5e90065df
+INFO 2024-06-14 06:04:30,344 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:04:30,469 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:04:30,469 views LogoutView logout user
+ERROR 2024-06-14 06:04:32,082 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Python310\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Python310\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-14 06:04:32,119 log log_response Bad Request: /
+WARNING 2024-06-14 06:04:32,119 basehttp log_message "GET / HTTP/1.1" 400 67546
+ERROR 2024-06-14 06:04:32,227 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\Python310\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\Python310\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-14 06:04:32,246 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-14 06:04:32,252 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 67378
+INFO 2024-06-14 06:07:43,962 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:07:44,432 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:07:44,582 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:07:44,582 views LogoutView logout user
+INFO 2024-06-14 06:08:00,638 basehttp log_message "GET / HTTP/1.1" 200 351
+WARNING 2024-06-14 06:08:00,693 log log_response Not Found: /favicon.ico
+WARNING 2024-06-14 06:08:00,693 basehttp log_message "GET /favicon.ico HTTP/1.1" 404 3285
+INFO 2024-06-14 06:08:10,117 basehttp log_message "GET /admin HTTP/1.1" 301 0
+INFO 2024-06-14 06:08:10,131 basehttp log_message "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-06-14 06:08:10,154 basehttp log_message "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-06-14 06:08:10,220 basehttp log_message "GET /assets/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-06-14 06:08:10,220 basehttp log_message "GET /assets/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-06-14 06:08:10,220 basehttp log_message "GET /assets/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-06-14 06:08:10,226 basehttp log_message "GET /assets/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-06-14 06:08:10,228 basehttp log_message "GET /assets/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-06-14 06:08:10,228 basehttp log_message "GET /assets/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-06-14 06:08:10,232 basehttp log_message "GET /assets/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-06-14 06:10:52,749 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:10:53,149 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:10:53,294 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:10:53,294 views LogoutView logout user
+INFO 2024-06-14 06:12:10,893 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:12:11,364 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:12:11,517 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:12:11,517 views LogoutView logout user
+INFO 2024-06-14 06:14:08,610 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:14:08,954 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:14:09,095 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:14:09,095 views LogoutView logout user
+INFO 2024-06-14 06:15:41,456 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:15:41,831 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:15:41,942 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:15:41,942 views LogoutView logout user
+INFO 2024-06-14 06:18:58,551 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:18:58,676 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:18:58,676 views LogoutView logout user
+INFO 2024-06-14 06:22:14,532 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:22:14,914 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:22:15,055 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:22:15,055 views LogoutView logout user
+INFO 2024-06-14 06:27:54,502 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:27:54,627 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:27:54,627 views LogoutView logout user
+INFO 2024-06-14 06:30:29,163 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:30:29,288 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:30:29,288 views LogoutView logout user
+INFO 2024-06-14 06:33:20,597 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:33:21,035 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:33:21,191 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:33:21,191 views LogoutView logout user
+INFO 2024-06-14 06:39:35,791 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:39:35,838 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:39:35,838 views LogoutView logout user
+INFO 2024-06-14 06:42:24,829 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:42:24,876 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:42:24,876 views LogoutView logout user
+INFO 2024-06-14 06:46:16,615 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:46:17,035 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:46:17,083 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:46:17,083 views LogoutView logout user
+INFO 2024-06-14 06:46:35,890 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 06:46:36,311 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:46:36,358 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:46:36,358 views LogoutView logout user
+INFO 2024-06-14 06:51:21,690 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:51:21,738 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:51:21,738 views LogoutView logout user
+INFO 2024-06-14 06:52:35,825 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:52:35,857 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 06:52:35,872 views LogoutView logout user
+INFO 2024-06-14 06:56:25,403 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\cloudback\admin.py changed, reloading.
+INFO 2024-06-14 06:56:25,938 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 06:59:18,343 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 07:00:17,357 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\cloudback\admin.py changed, reloading.
+INFO 2024-06-14 07:00:17,822 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 07:00:54,009 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\urls.py changed, reloading.
+INFO 2024-06-14 07:00:54,434 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 07:00:54,481 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 07:00:54,481 views LogoutView logout user
+INFO 2024-06-14 07:13:50,725 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 07:13:50,765 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 07:13:50,765 views LogoutView logout user
