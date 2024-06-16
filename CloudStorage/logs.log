@@ -699,3 +699,295 @@ INFO 2024-06-14 07:00:54,481 views LogoutView logout user
 INFO 2024-06-14 07:13:50,725 autoreload run_with_reloader Watching for file changes with StatReloader
 INFO 2024-06-14 07:13:50,765 views DownloadFileAPIView Downloading file
 INFO 2024-06-14 07:13:50,765 views LogoutView logout user
+INFO 2024-06-14 08:24:16,329 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 08:24:16,367 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 08:24:16,367 views LogoutView logout user
+INFO 2024-06-14 08:51:57,268 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 08:51:57,268 views LogoutView logout user
+INFO 2024-06-14 08:52:41,497 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 08:52:41,529 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 08:52:41,529 views LogoutView logout user
+INFO 2024-06-14 09:11:34,260 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 09:11:55,304 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 09:11:55,335 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 09:11:55,335 views LogoutView logout user
+INFO 2024-06-14 09:12:37,488 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 09:12:37,821 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 09:12:37,853 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 09:12:37,853 views LogoutView logout user
+ERROR 2024-06-14 09:12:41,583 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-14 09:12:41,606 log log_response Bad Request: /
+WARNING 2024-06-14 09:12:41,608 basehttp log_message "GET / HTTP/1.1" 400 69695
+ERROR 2024-06-14 09:12:41,694 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-14 09:12:41,704 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-14 09:12:41,704 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69527
+INFO 2024-06-14 09:20:59,630 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 09:20:59,662 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 09:20:59,662 views LogoutView logout user
+INFO 2024-06-14 09:26:05,091 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 09:26:05,435 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 09:26:05,466 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 09:26:05,466 views LogoutView logout user
+INFO 2024-06-14 09:26:29,192 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-14 09:26:29,533 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-14 09:26:29,564 views DownloadFileAPIView Downloading file
+INFO 2024-06-14 09:26:29,564 views LogoutView logout user
+INFO 2024-06-16 04:37:51,445 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:37:51,492 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:37:51,492 views LogoutView logout user
+INFO 2024-06-16 04:45:41,239 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-16 04:45:41,608 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:45:41,656 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:45:41,656 views LogoutView logout user
+INFO 2024-06-16 04:46:32,475 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-16 04:46:32,871 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:46:32,911 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:46:32,919 views LogoutView logout user
+ERROR 2024-06-16 04:46:37,849 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:46:37,881 log log_response Bad Request: /
+WARNING 2024-06-16 04:46:37,881 basehttp log_message "GET / HTTP/1.1" 400 69683
+ERROR 2024-06-16 04:46:37,993 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:46:38,001 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:46:38,009 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69515
+ERROR 2024-06-16 04:47:36,364 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:47:36,384 log log_response Bad Request: /admin/
+WARNING 2024-06-16 04:47:36,386 basehttp log_message "GET /admin/ HTTP/1.1" 400 69754
+ERROR 2024-06-16 04:47:36,423 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:47:36,439 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:47:36,439 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69521
+ERROR 2024-06-16 04:47:49,416 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:47:49,440 log log_response Bad Request: /
+WARNING 2024-06-16 04:47:49,448 basehttp log_message "GET / HTTP/1.1" 400 69683
+ERROR 2024-06-16 04:47:49,480 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:47:49,496 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:47:49,496 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69515
+ERROR 2024-06-16 04:51:58,657 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:51:58,673 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:51:58,673 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69515
+INFO 2024-06-16 04:52:27,384 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:52:27,432 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:52:27,432 views LogoutView logout user
+INFO 2024-06-16 04:53:56,800 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:53:56,800 views LogoutView logout user
+INFO 2024-06-16 04:54:01,911 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:54:01,951 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:54:01,951 views LogoutView logout user
+ERROR 2024-06-16 04:54:08,704 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:54:08,728 log log_response Bad Request: /
+WARNING 2024-06-16 04:54:08,728 basehttp log_message "GET / HTTP/1.1" 400 69683
+ERROR 2024-06-16 04:54:08,840 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:54:08,856 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:54:08,856 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69515
+INFO 2024-06-16 04:55:09,079 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:55:09,127 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:55:09,127 views LogoutView logout user
+ERROR 2024-06-16 04:55:13,162 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:55:13,194 log log_response Bad Request: /
+WARNING 2024-06-16 04:55:13,194 basehttp log_message "GET / HTTP/1.1" 400 69820
+ERROR 2024-06-16 04:55:13,266 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:55:13,274 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:55:13,274 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69515
+ERROR 2024-06-16 04:55:33,331 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:55:33,347 log log_response Bad Request: /
+WARNING 2024-06-16 04:55:33,347 basehttp log_message "GET / HTTP/1.1" 400 69820
+ERROR 2024-06-16 04:55:33,411 exception response_for_exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-06-16 04:55:33,419 log log_response Bad Request: /favicon.ico
+WARNING 2024-06-16 04:55:33,427 basehttp log_message "GET /favicon.ico HTTP/1.1" 400 69515
+INFO 2024-06-16 04:56:50,873 autoreload trigger_reload C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\CloudStorage\settings.py changed, reloading.
+INFO 2024-06-16 04:57:21,607 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 04:57:21,655 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 04:57:21,655 views LogoutView logout user
+ERROR 2024-06-16 04:57:25,596 log log_response Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ../templates/index.html
+ERROR 2024-06-16 04:57:25,596 basehttp log_message "GET / HTTP/1.1" 500 80201
+WARNING 2024-06-16 04:57:25,708 log log_response Not Found: /favicon.ico
+WARNING 2024-06-16 04:57:25,708 basehttp log_message "GET /favicon.ico HTTP/1.1" 404 3285
+INFO 2024-06-16 05:03:33,751 basehttp log_message "GET / HTTP/1.1" 200 123
+INFO 2024-06-16 05:03:43,217 basehttp log_message "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-06-16 05:03:43,233 basehttp log_message "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4359
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-06-16 05:03:43,305 basehttp log_message "GET /assets/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-06-16 05:09:44,782 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 05:09:44,822 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 05:09:44,822 views LogoutView logout user
+ERROR 2024-06-16 05:10:28,553 exception response_for_exception Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+  File "C:\PycharmProjects\pythonProject\Projects\MCloud\diplom_Mcloud\CloudStorage\env\lib\site-packages\django\http\request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+WARNING 2024-06-16 05:10:28,578 log log_response Bad Request: /api-token-auth/
+WARNING 2024-06-16 05:10:28,586 basehttp log_message "OPTIONS /api-token-auth/ HTTP/1.1" 400 69132

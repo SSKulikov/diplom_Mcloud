@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-35qw*#+mcdcpg2*v7!i_hnh-$qcj_h@#um=1@#l6_b!d1@8&mb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG') or True
 
-ALLOWED_HOSTS = [os.getenv('ALLOWED_HOSTS'),]
-
+#ALLOWED_HOSTS = [os.getenv('ALLOWED_HOSTS'),]
+ALLOWED_HOSTS = ['127.0.0.1']
 
 # Application definition
 
@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'CloudStorage.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        "NAME": os.getenv('NAME'),
-        "USER": os.getenv('USER'),
-        "PASSWORD": os.getenv('PASSWORD'),
-        "HOST": os.getenv('HOST'),
-        "PORT":  os.getenv('PORT'),
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT':  5432,
     }
 }
 
