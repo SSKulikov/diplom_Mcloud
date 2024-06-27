@@ -991,3 +991,14 @@ Traceback (most recent call last):
 django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
 WARNING 2024-06-16 05:10:28,578 log log_response Bad Request: /api-token-auth/
 WARNING 2024-06-16 05:10:28,586 basehttp log_message "OPTIONS /api-token-auth/ HTTP/1.1" 400 69132
+INFO 2024-06-16 07:05:23,015 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 07:05:23,054 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 07:05:23,055 views LogoutView logout user
+INFO 2024-06-16 07:05:25,436 basehttp log_message "GET / HTTP/1.1" 200 294
+WARNING 2024-06-16 07:05:25,458 log log_response Not Found: /src/main.tsx
+WARNING 2024-06-16 07:05:25,458 basehttp log_message "GET /src/main.tsx HTTP/1.1" 404 3288
+INFO 2024-06-16 07:06:40,901 basehttp log_message "GET / HTTP/1.1" 200 363
+INFO 2024-06-16 07:07:07,974 autoreload run_with_reloader Watching for file changes with StatReloader
+INFO 2024-06-16 07:07:08,012 views DownloadFileAPIView Downloading file
+INFO 2024-06-16 07:07:08,013 views LogoutView logout user
+INFO 2024-06-16 07:07:09,388 basehttp log_message "GET / HTTP/1.1" 200 363
